@@ -1,0 +1,23 @@
+.password-container {
+  width: 300px;
+  margin: 100px auto;
+  font-family: Arial, sans-serif;
+}
+input[type="password"],
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.show-password {
+  display: flex;
+  align-items: center;
+}
+.show-password label {
+  margin-left: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
